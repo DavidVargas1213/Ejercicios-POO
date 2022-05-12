@@ -1,3 +1,5 @@
+import java.util.Date;
+import java.util.Iterator;
 
 public class ObjetosPrueba {
 
@@ -6,6 +8,17 @@ public class ObjetosPrueba {
 		System.out.println(Rectangle1.getArea()+"" + "" +Rectangle1.getPerimeter());
 		Rectangle Rectangle2 = new Rectangle(5 , 6); 
 		System.out.println(Rectangle2.getArea()+"aa" + "" +Rectangle1.getPerimeter());
+		
+		Date te = new Date();
+		long elapsed=10000;
+		while(elapsed < 100000000000L) {
+			te.setTime(elapsed);
+			elapsed=elapsed*10L;
+			te.getTime();
+			System.out.println(te.toString());
+			
+		}
+		
 	}
 
 
