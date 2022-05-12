@@ -1,12 +1,10 @@
-//Scanner sobra. Los valores provienen del constructor, no de la consola.
-import java.util.Scanner;
 
 //Crear una clase llamada ObjetosPrueba con su método main en donde debe crear una instancia del objeto Rectangle.
 public class Rectangle {
 	
 	//Los atributos de la clase deberían de tener el modificador de acceso 'private'
 	//Los atributos NO deberían de tener el valor 1 por defecto. Se deberían declarar únicamente. Ej: int miVariable;
-	private double high=1, wide=1;
+	private double high, wide;
 	
 	//Scanner sobra. Los valores provienen del constructor, no de la consola.
 	
