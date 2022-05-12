@@ -1,9 +1,10 @@
+import java.time.LocalDateTime;
 import java.util.*;
 
 public class ObjetosPrueba {
 
 	public static void main(String[] args) {
-		System.out.println("EXERCISE 9.1");
+		/*System.out.println("EXERCISE 9.1");
 		Rectangle Rectangle1  = new Rectangle();
 		System.out.println(Rectangle1.getArea()+"" + "" +Rectangle1.getPerimeter());
 		Rectangle Rectangle2 = new Rectangle(5 , 6); 
@@ -37,6 +38,14 @@ public class ObjetosPrueba {
 		System.out.println(gc.getTime());
 		
 		
+		LocalDateTime locaDate = LocalDateTime.now();
+		int hours  = locaDate.getHour();
+		int minutes = locaDate.getMinute();
+		int seconds = locaDate.getSecond();
+		System.out.println("Hora actual : " + hours  + ":"+ minutes +":"+seconds); 
+		*/
+		
+		StopWatch st = new StopWatch();
 	}
 
 }
