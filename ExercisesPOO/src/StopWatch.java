@@ -1,11 +1,7 @@
 
-import java.util.Date;
-
 public class StopWatch {
 
 	Long startTime, endTime;
-
-	Date dt = new Date();
 
 	public StopWatch() {
 		this.startTime = System.currentTimeMillis();
@@ -13,12 +9,12 @@ public class StopWatch {
 
 	public void start() {
 		startTime = System.currentTimeMillis();
-		
+
 	}
 	public void stop() {
 		endTime = System.currentTimeMillis();
 	}
-	
+
 	public void getElapsedTime() {
 		Long elapsedTime = endTime - startTime;
 	}
@@ -30,6 +26,5 @@ public class StopWatch {
 	public Long getEndTime() {
 		return endTime;
 	}
-	
 
 }
