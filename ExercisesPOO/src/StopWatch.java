@@ -17,6 +17,7 @@ public class StopWatch {
 
 	public void getElapsedTime() {
 		Long elapsedTime = endTime - startTime;
+		System.out.println(elapsedTime);
 	}
 
 	public Long getStartTime() {
